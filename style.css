@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.restuarant{
+    width: 550px;
+    height: 550px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.restaurant-inner{
+    padding: 15px;
+}
+.restuarant-heading{
+    color:#524e4e;
+}
+.restuarant-img{
+    width: 100%;
+    border-radius: 25px;
+}
+.restaurant-inner p{
+    color: rgb(150, 141, 141);
+    font-size: 25px;
+}
+.safety-img{
+    width: 90px;
+    height: 35px;
+}
+.safety-measures{
+    padding: 0 15px;
+    display: flex;
+    gap:15px;
+    font-size: 20px;
+    color: rgb(150, 141, 141);
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.restuarant hr{
+    margin: 0 15px;
+    opacity:0.3;
+}
+.restuarant p, .restuarant h1{
+    padding:5px 10px;
+}
+.offer{
+    background-color: #266fef;
+    width: 220px;
+    height: 32px;
+    color:white;
+    padding: 5px;
+    font-size:22px;
+    text-align: center;
+    position:absolute;
+    left:0;
+    bottom:25px;
+}
+.time{
+    width:80px;
+    height:32px;
+    background-color: white;
+    position:absolute;
+    bottom:25px;
+    right:20px;
+    text-align: center;
+    font-weight: bold;
+    color:#524e4e;
+    font-size: 18px;
+    padding:5px;
+    border-radius: 6px;
+}
+.promote{
+    width: 90px;
+    height:22px;
+    background-color: gray;
+    color:#d9d3d3;
+    position:absolute;
+    top:25px;
+    left:20px;
+    padding:3px;
+    text-align: center;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.tag-position{
+    position:relative;
+}
+
+.nature{
+    width: 550px;
+    height: 360px;
+    margin: 40px auto;
+    position: relative;
+    font-family: sans-serif;
+    color:white;
+}
+.sunset-img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.bali-info{
+    position:absolute;
+    bottom:80px;
+    text-align: center;
+}
+.bali-info h1, .bali-info p{
+    padding:10px 0;
+}
+.bali-info h1{
+    font-size:25px;
+}
+.bali-info p{
+    font-size:13px;
+}
+.bali-info button{
+    margin-top:5px;
+    padding:10px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.zomato{
+    width: 600px;
+    height: 200px;
+    margin: 40px auto;
+    color:white;
+    position: relative;
+}
+.zomato-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.zomato-inner{
+    width:500px;
+    position: absolute;
+    top:40px;
+    left:40px;
+    text-align: center;
+}
+.zomato-inner h1, .zomato-inner p{
+    padding:5px 0;
+}
+.zomato-inner h1{
+    font-size: 40px;
+}
+.zomato-inner p{
+    font-size: 18px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.zomato-input{
+    width:100%;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:none;
+    margin-top:8px;
+}
+.zomato-input-div{
+    width:380px;
+    color:gray;
+    position:relative;
+    text-align: center;
+    margin:0 auto;
+    font-size: x-small;
+}
+.location{
+    position:absolute;
+    top:14px;
+    left:10px;
+    color:rgb(255, 126, 139);
+}
+.zomato-input-div p{
+    font-size: 10px;
+}
+.city{
+    position:absolute;
+    top:10px;
+    left:30px;
+}
+.dropdown{
+    position:absolute;
+    top:14px;
+    left:130px;
+}
+.pipe{
+    position:absolute;
+    top:10px;
+    left:150px; 
+    opacity: 0.5;
+}
+.search{
+    position:absolute;
+    top:16px;
+    left:165px;
+    opacity: 0.5;
+}
+.search-text{
+    position:absolute;
+    top:10px;
+    left:185px;
+}
+
+.ashish{
+    width:500px;
+    height: 350px;
+    margin:40px auto;
+    border-radius: 20px;
+    border:1px solid lightgray;
+    font-family: sans-serif;
+}
+.ashish-bg{
+    width: 100%;
+    border-radius:20px 20px 0 0;
+}
+.ashish-profile{
+    width: 30%;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    bottom:-60px;
+    left:170px;
+}
+.ashish-img{
+    position: relative;
+}
+.ashish-info{
+    margin: 100px auto;
+    text-align: center;
+}
+.ashish-info p{
+    font-size: 25px;
+    padding: 10px;
+    color:gray;
+}
